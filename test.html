@@ -9,16 +9,20 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Optional theme -->
+	 <!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head> <!-- End of Head -->
 
-<body>
+<style>
+body{
+	padding-top: 40;
+}
 
+</style>
+
+<body>
+  
 	<!-- Navbar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 		<div class="container">
@@ -32,7 +36,10 @@
 
 				<a href="" class="navbar-brand">Bootstrap Test</a>
 			</div><!-- End Navbar Header -->
+			
 			<div class="collapse navbar-collapse" id="myNavbar">
+				<a href="" class="btn btn-warning navbar-btn navbar-right">Download Now</a>
+
 				<ul class="nav navbar-nav">
 				<li><a href="#feedback">Feedback</a>
 				<li><a href="#gallery">Gallery</a>
@@ -44,6 +51,131 @@
 		</div> <!-- End Container -->
 
 	</nav> <!-- End Navbar -->
+
+	<!-- Jumbotron -->
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Bootstrap Test</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et elit sed mi ultricies bibendum porta non urna. </p>
+
+			<div class="btn-group">
+				<a href="" class="btn btn-lg btn-warning">Download App</a>
+				<a href="" class="btn btn-lg btn-default">Visit Store</a>
+				<a href="" class="btn btn-lg btn-warning">Spread the word</a>
+			</div> <!-- End btn-group -->
+		</div> <!-- End container --> 
+
+	</div> <!-- End jumbotron -->
+
+	 <!-- Feedback -->
+  	<div class="container">
+  		<section>
+  			<div class="page-header" id="feedback">
+  				<h2>Feedback<small>Check out the Awesome Feedback</small></h2>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-4">
+  					<blockquote>
+  						<p>Proin sodales imperdiet velit et ornare. Sed sem magna, tristique quis viverra nec, consequat in purus. Nunc viverra lorem et ligula ultricies tristique.</p>
+  						<footer>John Doe</footer>
+  					</blockquote>
+  				</div>
+  				<div class="col-sm-4">
+  					<blockquote>
+  						<p>Proin sodales imperdiet velit et ornare. Sed sem magna, tristique quis viverra nec, consequat in purus. Nunc viverra lorem et ligula ultricies tristique.</p>
+  						<footer>John Doe</footer>
+  					</blockquote>
+  				</div>
+  				<div class="col-sm-4">
+  					<blockquote>
+  						<p>Proin sodales imperdiet velit et ornare. Sed sem magna, tristique quis viverra nec, consequat in purus. Nunc viverra lorem et ligula ultricies tristique.</p>
+  						<footer>John Doe</footer>
+  					</blockquote>
+  				</div>
+  			</div>
+  			</div>
+  		</section>
+  	</div> <!-- End Feedback -->
+
+  	<!-- Call to action -->
+  	<section>
+  		<div class="well">
+  			<div class="container text-center">
+  				<h3>Subscribe for more free stuff</h3>
+  				<p>Enter your name and email</p> 
+
+  				<form action="" class="form-inline">
+  					<div class="form-group">
+  						<label for="subscription">Subscribe</label>
+  						<input type="text" class="form-control" id="subscription" placeholder="Your name">
+  					</div>
+  					<div class="form-group">
+  						<label for="email">Email address</label>
+  						<input type="text" class="form-control" id="email" placeholder="Enter your email">
+  					</div>
+  					<btn type="submit" class="btn btn-warning">Subscribe</btn>
+  					<hr> 
+  				</form>
+  			</div> <!-- End container -->
+  			
+  		</div> <!-- End well --> 
+  	</section> <!-- End Call to action -->
+
+  	<!-- Gallery -->
+  	<div class="container">
+  		<section>
+  			<div class="page-header" id="gallery">
+  				<h2>Gallery<small>Check out the Awesome Gallery</small></h2>
+  			</div>
+
+  			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+  				<ol class="carousel-indicators">
+  					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+
+  				</ol> 
+  				<div class="carousel-inner">
+  					<div class="item active">
+  						<img src="images/highway.jpg" alt="Text of the image">
+  						<div class="carousel-caption">
+  							<h3>Highway Heading</h3>
+  							<p>This is the caption</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="images/river.jpg" alt="Text of the image">
+  						<div class="carousel-caption">
+  							<h3>River Heading</h3>
+  							<p>This is the caption</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="images/street.jpg" alt="Text of the image">
+  						<div class="carousel-caption">
+  							<h3>Street Heading</h3>
+  							<p>This is the caption</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="images/painting.jpg" alt="Text of the image">
+  						<div class="carousel-caption">
+  							<h3>Painting Heading</h3>
+  							<p>This is the caption</p>
+  						</div>
+
+  					</div>
+  				</div> <!-- End Carousel-inner -->
+  			</div> <!-- End Carousel -->
+  		</section>
+  	</div> <!-- End Gallery -->
+
+
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 
 </body> <!-- End of Body -->
 
